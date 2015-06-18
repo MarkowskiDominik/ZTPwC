@@ -21,7 +21,8 @@ void wypisz(T kontener)
 struct Item
 {
 	int price, number;
-	Item(int price, int number) {
+	Item(int price, int number)
+	{
 		this->price = price; this->number = number;
 	}
 };
